@@ -179,7 +179,6 @@ body {
 .container .bottomheaderSection .bottomheader {
   width: 100%;
   height: 80px;
-  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,6 +226,7 @@ body {
 }
 
 .container .bottomheaderSection .bottomheader .productfeature .products .productfeatures span {
+  cursor: pointer;
   padding: 20px;
   color: #fff;
   position: relative;
@@ -234,7 +234,7 @@ body {
 
 .container .bottomheaderSection .bottomheader .productfeature .products .productfeatures span i {
   padding-left: 10px;
-  color: #525666;
+  color: #858997;
 }
 
 .container .bottomheaderSection .bottomheader .productfeature .loginputsbtns {
@@ -328,11 +328,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: none;
-  margin-top: 20px;
-  height: 400px;
+  position: absolute;
+  top: 90px;
+  margin-top: 50px;
+  height: 350px;
   background-color: #fff;
   border-radius: 20px;
+  display: none;
 }
 
 .container .bottomheaderSection .visibleproducts .groups {
@@ -345,6 +347,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 100px;
+  padding: 10px;
   gap: 20px;
 }
 
@@ -689,6 +692,7 @@ body {
   height: 850px;
   background-position: 350%;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .container .powerfulControlpanal .powerfulApis {
@@ -714,6 +718,27 @@ body {
   margin-top: 150px;
   width: 100%;
   text-align: center;
+}
+
+.container .powerfulControlpanal .powerfulApis .apis .explorebtn {
+  position: absolute;
+  top: 110px;
+  width: 220px;
+  height: 50px;
+  font-weight: bold;
+  border: 1px solid;
+  font-size: 17px;
+  color: #007bfc;
+  border-color: #007bfc;
+  border-radius: 2px;
+  cursor: pointer;
+  display: none;
+}
+
+.container .powerfulControlpanal .powerfulApis .apis .explorebtn:hover {
+  color: #51b9ff;
+  background: transparent;
+  border-color: #51b9ff;
 }
 
 .container .powerfulControlpanal .powerfulApis .apis span {
@@ -755,9 +780,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .container .powerfulControlpanal .powerfulApis .colsection .colone .content {
@@ -1759,6 +1781,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    margin-top: 20px;
   }
   .container .bottomheaderSection .bottomheader .logo {
     display: none;
@@ -1826,6 +1849,7 @@ body {
   .container .bottomheaderSection .responsiveproducts .barproducts {
     width: 90%;
     border-radius: 10px;
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1833,7 +1857,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    top: 140px;
     border: 1px solid;
+    border-color: #e5e5e5;
     background-color: #fff;
   }
   .container .bottomheaderSection .responsiveproducts .barproducts span {
@@ -2060,6 +2086,9 @@ body {
   .container .powerfulControlpanal .powerfulApis {
     width: 90%;
   }
+  .container .powerfulControlpanal .powerfulApis .apis .explorebtn {
+    display: block;
+  }
   .container .powerfulControlpanal .powerfulApis .apis span {
     color: #fff;
     font-size: 32px;
@@ -2142,13 +2171,7 @@ body {
     background-position: 50%;
     background-repeat: no-repeat;
     height: 254px;
-    width: 1012px;
-    z-index: 1;
     background-position: center;
-    background-size: 100%;
-    background-size: cover;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
     content: "";
   }
   .container .powerfulControlpanal::after {
@@ -2205,7 +2228,7 @@ body {
     background-position: center;
     width: 100%;
     background-repeat: no-repeat;
-    padding-top: 170px;
+    padding-top: 190px;
     margin-top: -180px;
     background-size: 100% 100%;
   }
@@ -2224,9 +2247,6 @@ body {
   }
   .container .wireimg .application button {
     background-color: transparent;
-  }
-  .container .upperfooter {
-    margin-top: 400px;
   }
 }
 
@@ -2436,7 +2456,23 @@ body {
   }
   .container .InsightAndResources .resourcesSection {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 100%;
+  }
+  .container .InsightAndResources .resourcesSection .insights {
+    margin-top: 50px;
   }
   .container .InsightAndResources .resourcesSection .insights h2 {
     font-size: 32px;
@@ -2470,8 +2506,7 @@ body {
     height: 100%;
   }
   .container .InsightAndResources .resourcesSection .introducing .commonrow {
-    margin-top: 500px;
-    height: 100%;
+    margin-top: 50px;
     width: 100%;
   }
   .container .InsightAndResources .resourcesSection .introducing .commonrow .firstrow {
@@ -2499,8 +2534,7 @@ body {
   .container .InsightAndResources .resourcesSection .introducing .mysqlimgsvg {
     margin-left: 0px;
     width: 100%;
-    height: 100%;
-    margin-top: -830px;
+    margin-top: 100px;
   }
   .container .InsightAndResources .resourcesSection .introducing .mysqlimgsvg img {
     width: 100%;
@@ -2509,22 +2543,56 @@ body {
 
 @media only screen and (max-width: 700px) {
   .container .upperfooter {
-    margin-top: 380px;
+    margin-top: 100px;
     height: 1100px;
   }
   .container .upperfooter .products {
     margin-top: -200px;
   }
-  .container .InsightAndResources .resourcesSection .commonrow {
-    gap: 22px;
+}
+
+@media only screen and (max-width: 450px) {
+  .container .bottomheaderSection .bottomheader .bar {
+    padding-right: 10%;
   }
-  .container .InsightAndResources .resourcesSection .commonrow .firstrow {
-    margin-top: 122px;
-    margin-bottom: -122px;
+  .container .bottomheaderSection .cloud .infrastructure .inputsection h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
-  .container .InsightAndResources .resourcesSection .commonrow .secondrow {
-    margin-top: 132px;
-    margin-bottom: -99px;
+  .container .globallysection {
+    margin-top: 900px;
+  }
+  .container .globallysection span {
+    text-align: center;
+  }
+  .container .mapcitiesinresponsive .mapingcity {
+    gap: 0px;
+  }
+  .container .upperfooter .products {
+    gap: 0px;
+  }
+  .container .wireimg .application {
+    padding-top: 170px;
+  }
+  .container .wireimg .application button {
+    font-size: 10px;
+  }
+  .container .instancewithVULTR .ExploreApis .prototype {
+    text-align: center;
+  }
+  .container .instancewithVULTR .ExploreApis .prototype h3 {
+    padding: 20px;
+  }
+  .container .InsightAndResources .resourcesSection .insights h2 {
+    text-align: center;
+  }
+  .container .powerfulControlpanal .powerfulApis .colsection .colone .content {
+    height: 190px;
   }
 }
 /*# sourceMappingURL=index.css.map */

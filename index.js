@@ -21,3 +21,19 @@ function signinbtns() {
 
     }
 }
+
+
+
+function show() {
+    let product = document.querySelector('.bottomheaderSection .visibleproducts')
+
+    let header = document.querySelector('.bottomheaderSection .bottomheader')
+    product.style.display = "block"
+}
+function hide() {
+    let product = document.querySelector('.bottomheaderSection .visibleproducts')
+
+
+    product.style.display = "none"
+
+}
