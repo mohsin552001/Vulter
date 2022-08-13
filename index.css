@@ -1881,6 +1881,8 @@ body {
   }
   .container .bottomheaderSection .signupbtns {
     display: block;
+    position: absolute;
+    top: 140px;
     width: 100%;
   }
   .container .bottomheaderSection .signupbtns .btns {
@@ -1899,6 +1901,8 @@ body {
             align-items: center;
     gap: 10px;
     width: 250px;
+    border: 1px solid;
+    border-color: #e5e5e5;
     height: 220px;
     margin-left: 30px;
     border-radius: 20px;
@@ -2506,6 +2510,9 @@ body {
     height: 100%;
   }
   .container .InsightAndResources .resourcesSection .introducing .commonrow {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
     margin-top: 50px;
     width: 100%;
   }
@@ -2593,6 +2600,12 @@ body {
   }
   .container .powerfulControlpanal .powerfulApis .colsection .colone .content {
     height: 190px;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .container .bottomheaderSection .bottomheader .smalllogo {
+    padding-left: 85px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */

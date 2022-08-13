@@ -1643,7 +1643,8 @@ body {
 
                 display: block;
 
-
+                position: absolute;
+                top: 140px;
                 width: 100%;
 
                 .btns {
@@ -1653,7 +1654,8 @@ body {
                     align-items: center;
                     gap: 10px;
                     width: 250px;
-
+                    border: 1px solid;
+                    border-color: rgb(229, 229, 229);
                     height: 220px;
                     margin-left: 30px;
                     border-radius: 20px;
@@ -2333,7 +2335,7 @@ body {
                     height: 100%;
 
                     .commonrow {
-
+                        order: 2;
                         margin-top: 50px;
                         width: 100%;
 
@@ -2483,6 +2485,28 @@ body {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 290px) {
+
+    .container {
+        .bottomheaderSection {
+
+
+            .bottomheader {
+
+
+                .smalllogo {
+
+
+
+                    padding-left: 85px !important;
+                }
+
+
             }
         }
     }
