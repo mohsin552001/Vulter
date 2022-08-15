@@ -2423,7 +2423,7 @@ body {
         }
 
         .globallysection {
-            margin-top: 900px;
+            margin-top: 850px;
 
             span {
                 text-align: center;
@@ -2442,11 +2442,24 @@ body {
             .products {
                 gap: 0px;
             }
+
+            .servers {
+                .icons {
+                    width: 100%;
+                    margin-top: 50px;
+                }
+            }
+
+            .bottomfooter {
+                .services {
+                    margin-top: -400px;
+                }
+            }
         }
 
         .wireimg {
             .application {
-                padding-top: 170px;
+                padding-top: 160px;
 
                 button {
                     font-size: 10px;
@@ -2473,7 +2486,21 @@ body {
                         text-align: center;
                     }
                 }
+
+                .introducing {
+                    .mysqlimgsvg {
+                        .textportion {
+                            height: 100%;
+                            padding: 15px;
+
+                            p {
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
             }
+
         }
 
         .powerfulControlpanal {

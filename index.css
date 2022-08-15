@@ -2572,7 +2572,7 @@ body {
     text-align: center;
   }
   .container .globallysection {
-    margin-top: 900px;
+    margin-top: 850px;
   }
   .container .globallysection span {
     text-align: center;
@@ -2583,8 +2583,15 @@ body {
   .container .upperfooter .products {
     gap: 0px;
   }
+  .container .upperfooter .servers .icons {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .container .upperfooter .bottomfooter .services {
+    margin-top: -400px;
+  }
   .container .wireimg .application {
-    padding-top: 170px;
+    padding-top: 160px;
   }
   .container .wireimg .application button {
     font-size: 10px;
@@ -2597,6 +2604,13 @@ body {
   }
   .container .InsightAndResources .resourcesSection .insights h2 {
     text-align: center;
+  }
+  .container .InsightAndResources .resourcesSection .introducing .mysqlimgsvg .textportion {
+    height: 100%;
+    padding: 15px;
+  }
+  .container .InsightAndResources .resourcesSection .introducing .mysqlimgsvg .textportion p {
+    height: 100%;
   }
   .container .powerfulControlpanal .powerfulApis .colsection .colone .content {
     height: 190px;
