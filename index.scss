@@ -2468,6 +2468,12 @@ body {
         }
 
         .instancewithVULTR {
+            .deployheading {
+                h1 {
+                    padding: 10px;
+                }
+            }
+
             .ExploreApis {
                 .prototype {
                     text-align: center;
@@ -2534,6 +2540,14 @@ body {
                 }
 
 
+            }
+        }
+
+        .upperfooter {
+            .servers {
+                .icons {
+                    gap: 10px;
+                }
             }
         }
     }

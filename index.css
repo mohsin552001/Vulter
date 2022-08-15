@@ -2596,6 +2596,9 @@ body {
   .container .wireimg .application button {
     font-size: 10px;
   }
+  .container .instancewithVULTR .deployheading h1 {
+    padding: 10px;
+  }
   .container .instancewithVULTR .ExploreApis .prototype {
     text-align: center;
   }
@@ -2620,6 +2623,9 @@ body {
 @media only screen and (max-width: 290px) {
   .container .bottomheaderSection .bottomheader .smalllogo {
     padding-left: 85px !important;
+  }
+  .container .upperfooter .servers .icons {
+    gap: 10px;
   }
 }
 /*# sourceMappingURL=index.css.map */
