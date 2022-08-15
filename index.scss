@@ -2396,6 +2396,21 @@ body {
             .products {
                 margin-top: -200px;
             }
+
+            .servers {
+                .icons {
+                    width: 100%;
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        .InsightAndResources {
+            .resourcesSection {
+                .insights {
+                    padding: 20px;
+                }
+            }
         }
     }
 }
@@ -2547,6 +2562,16 @@ body {
             .servers {
                 .icons {
                     gap: 10px;
+                }
+            }
+        }
+
+        .InsightAndResources {
+            .resourcesSection {
+                .introducing {
+                    .mysqlimgsvg {
+                        height: 100% !important;
+                    }
                 }
             }
         }

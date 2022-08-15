@@ -2556,6 +2556,13 @@ body {
   .container .upperfooter .products {
     margin-top: -200px;
   }
+  .container .upperfooter .servers .icons {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .container .InsightAndResources .resourcesSection .insights {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -2626,6 +2633,9 @@ body {
   }
   .container .upperfooter .servers .icons {
     gap: 10px;
+  }
+  .container .InsightAndResources .resourcesSection .introducing .mysqlimgsvg {
+    height: 100% !important;
   }
 }
 /*# sourceMappingURL=index.css.map */
