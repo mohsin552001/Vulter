@@ -605,6 +605,13 @@ body {
   height: 244px;
 }
 
+.container .bottomheaderSection .kindsofclouds .waveimg .kindsSection .kinds .randomthings h3 {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #142149;
+}
+
 .container .bottomheaderSection .kindsofclouds .waveimg .kindsSection .kinds .randomthings p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1048,6 +1055,7 @@ body {
           transition-duration: 350ms;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
+  padding: 20px;
 }
 
 .container .instancewithVULTR .ExploreApis .prototype h3 {
@@ -1519,9 +1527,9 @@ body {
 }
 
 .container .upperfooter .products .productinfo span {
-  padding: 6px;
   color: rgba(229, 235, 255, 0.56);
   font-size: 15px;
+  padding-bottom: 20px;
   cursor: pointer;
 }
 
@@ -1548,6 +1556,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container .upperfooter .servers .cloudserver {
@@ -1818,7 +1829,7 @@ body {
     margin-bottom: 30px;
   }
   .container .upperfooter .products {
-    overflow: hidden;
+    gap: 70px;
   }
 }
 
@@ -2278,6 +2289,9 @@ body {
     font-size: 19px;
     line-height: 32px;
   }
+  .container .instancewithVULTR .ExploreApis .prototype {
+    height: 500px;
+  }
   .container .wireimg {
     background-size: 0px;
     margin-top: 200px;
@@ -2307,6 +2321,12 @@ body {
   }
   .container .wireimg .application button {
     background-color: transparent;
+  }
+  .container .kindsofclouds .kindsSection .kinds {
+    margin: 20px;
+  }
+  .container .kindsofclouds .kindsSection .kinds .randomthings {
+    padding: 20px;
   }
 }
 
@@ -2406,7 +2426,8 @@ body {
             flex-direction: column;
   }
   .container .instancewithVULTR .ExploreApis .prototype {
-    width: 100%;
+    height: 100% !important;
+    width: 90% !important;
   }
   .container .instancewithVULTR .ExploreApis .arrow .fa-arrow-right {
     display: none;
@@ -2499,7 +2520,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    margin-top: -350px;
+    margin-top: -310px;
   }
   .container .upperfooter .bottomfooter .services span {
     padding: 10px;
@@ -2606,6 +2627,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
     padding-left: 0px;
+  }
+  .container .upperfooter .products {
+    width: 100%;
+    gap: 20px !important;
   }
 }
 
@@ -2781,6 +2806,14 @@ body {
   }
   .container .instancewithVULTR {
     margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .instancewithVULTR .ExploreApis .prototype {
+    height: 600px !important;
+    width: 80% !important;
+    padding: 30px;
   }
 }
 /*# sourceMappingURL=index.css.map */

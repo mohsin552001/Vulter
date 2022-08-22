@@ -527,7 +527,12 @@ body {
 
                             }
 
-
+                            h3 {
+                                font-size: 19px;
+                                font-weight: 500;
+                                line-height: 24px;
+                                color: #142149;
+                            }
 
 
                             p {
@@ -937,6 +942,7 @@ body {
                 transition-property: box-shadow, transform;
                 transition-duration: 350ms;
                 transition-timing-function: ease;
+                padding: 20px;
 
                 h3 {
                     color: #142149;
@@ -1288,10 +1294,10 @@ body {
                 }
 
                 span {
-                    padding: 6px;
+
                     color: rgba(229, 235, 255, .56);
                     font-size: 15px;
-
+                    padding-bottom: 20px;
                     cursor: pointer;
 
                     &:hover {
@@ -1315,6 +1321,7 @@ body {
             flex-direction: row;
             margin-top: 50px;
             justify-content: space-between;
+            align-items: center;
 
             .cloudserver {
                 width: 50%;
@@ -1595,7 +1602,7 @@ body {
 
         .upperfooter {
             .products {
-                overflow: hidden;
+                gap: 70px;
             }
         }
     }
@@ -2099,6 +2106,11 @@ body {
                 }
             }
 
+            .ExploreApis {
+                .prototype {
+                    height: 500px;
+                }
+            }
         }
 
         .wireimg {
@@ -2147,6 +2159,17 @@ body {
 
         }
 
+        .kindsofclouds {
+            .kindsSection {
+                .kinds {
+                    margin: 20px;
+
+                    .randomthings {
+                        padding: 20px;
+                    }
+                }
+            }
+        }
 
     }
 }
@@ -2280,7 +2303,8 @@ body {
                 flex-direction: column;
 
                 .prototype {
-                    width: 100%;
+                    height: 100% !important;
+                    width: 90% !important;
                 }
 
                 .arrow {
@@ -2295,6 +2319,7 @@ body {
 
                 }
             }
+
         }
 
         .upperfooter {
@@ -2353,7 +2378,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    margin-top: -350px;
+                    margin-top: -310px;
 
 
 
@@ -2469,6 +2494,14 @@ body {
                 }
             }
         }
+
+        .upperfooter {
+            .products {
+                width: 100%;
+                gap: 20px !important;
+            }
+        }
+
     }
 }
 
@@ -2815,6 +2848,23 @@ body {
 
         .instancewithVULTR {
             margin-top: 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .instancewithVULTR {
+
+
+
+
+
+        .ExploreApis {
+            .prototype {
+                height: 600px !important;
+                width: 80% !important;
+                padding: 30px;
+            }
         }
     }
 }
