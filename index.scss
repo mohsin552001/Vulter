@@ -844,7 +844,7 @@ body {
 
 
                         position: relative;
-                        padding-left: 100px;
+
 
 
                         img {
@@ -854,7 +854,7 @@ body {
                         .imgone {
                             position: absolute;
                             top: 200px;
-                            left: 30px;
+                            left: -60px;
                         }
 
                         .ingtwo {
@@ -2719,6 +2719,18 @@ body {
 
                 .icons {
                     gap: 10px;
+                }
+            }
+
+            .products {
+                margin-top: 0px;
+
+                span {
+                    padding-left: 30px;
+                }
+
+                h3 {
+                    padding-left: 30px !important;
                 }
             }
 

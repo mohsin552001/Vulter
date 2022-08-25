@@ -936,7 +936,6 @@ body {
           box-shadow: 0 0px 3px gainsboro;
   background-color: white;
   position: relative;
-  padding-left: 100px;
 }
 
 .container .powerfulControlpanal .powerfulApis .colsection .coltwo .countryimg img {
@@ -946,7 +945,7 @@ body {
 .container .powerfulControlpanal .powerfulApis .colsection .coltwo .countryimg .imgone {
   position: absolute;
   top: 200px;
-  left: 30px;
+  left: -60px;
 }
 
 .container .powerfulControlpanal .powerfulApis .colsection .coltwo .countryimg .ingtwo {
@@ -2749,6 +2748,15 @@ body {
   }
   .container .upperfooter .servers .icons {
     gap: 10px;
+  }
+  .container .upperfooter .products {
+    margin-top: 0px;
+  }
+  .container .upperfooter .products span {
+    padding-left: 30px;
+  }
+  .container .upperfooter .products h3 {
+    padding-left: 30px !important;
   }
   .container .upperfooter .bottomfooter .vultr .logo {
     padding-left: 0px;
